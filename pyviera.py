@@ -1,11 +1,8 @@
 import socket
-import eventlet
 
 from urllib2 import urlopen
 
 from parsing import parse_discovery_response, parse_description
-
-eventlet.monkey_patch()
 
 IFACE = '0.0.0.0'
 SSDP_MCAST_ADDR = '239.255.255.250'
