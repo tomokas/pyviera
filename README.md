@@ -35,6 +35,8 @@ In a nutshell:
     tv.vol_up()
 ```
 
+Check out the `Viera` class in `viera.py` for all the supported keys. They're all pretty self-explanatory.
+
 ## Contributors
 Many thanks to:
  - [Tenderfoot14](https://github.com/Tenderfoot14) for adding lots of new SOAP codes.
