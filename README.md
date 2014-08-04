@@ -36,3 +36,7 @@ In a nutshell:
 ## Updates?
 Yes. Soon :). Currently only volume up/down, muting, and changing channel are supported.
 I'm planning on implementing state tracking as well.
+
+## Contributors
+Many thanks to:
+ - [Tenderfoot14](https://github.com/Tenderfoot14) for adding lots of new SOAP codes.
