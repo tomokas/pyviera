@@ -40,79 +40,79 @@ class Viera(object):
 
     def power(self):
         self._sendkey('NRC_TV-ONOFF')
-        
+
     def toggle_3D(self):
         self._sendkey('NRC_3D-ONOFF')
-        
+
     def toggle_SDCard(self):
         self._sendkey('NRC_SD_CARD-ONOFF')
-        
+
     def red(self):
         self._sendkey('NRC_RED-ONOFF')
-        
+
     def green(self):
         self._sendkey('NRC_GREEN-ONOFF')
-        
+
     def yellow(self):
         self._sendkey('NRC_YELLOW-ONOFF')
-        
+
     def blue(self):
         self._sendkey('NRC_BLUE-ONOFF')
-        
+
     def vtools(self):
         self._sendkey('NRC_VTOOLS-ONOFF')
-        
+
     def cancel(self):
         self._sendkey('NRC_CANCEL-ONOFF')
-        
+
     def option(self):
         self._sendkey('NRC_SUBMENU-ONOFF')
-        
+
     def Return(self):
         self.sendkey('NRC_RETURN-ONOFF')
-        
+
     def enter(self):
         self._sendkey('NRC_ENTER-ONOFF')
-        
+
     def right(self):
         self._sendkey('NRC_RIGHT-ONOFF')
-        
+
     def left(self):
         self._sendkey('NRC_LEFT-ONOFF')
-        
+
     def up(self):
         self._sendkey('NRC_UP-ONOFF')
-        
+
     def down(self):
         self._sendkey('NRC_DOWN-ONOFF')
-        
+
     def display(self):
         self._sendkey('NRC_DISP_MODE-ONOFF')
-        
+
     def menu(self):
         self._sendkey('NRC_MENU-ONOFF')
-        
+
     def connect(self):
         self._sendkey('NRC_INTERNET-ONOFF')
-        
+
     def link(self):
         self._sendkey('NRC_VIERA_LINK-ONOFF')
-        
+
     def guide(self):
         self._sendkey('NRC_EPG-ONOFF')
-        
+
     def text(self):
         self._sendkey('NRC_TEXT-ONOFF')
-        
+
     def subtitles(self):
         self._sendkey('NRC_STTL-ONOFF')
-        
+
     def info(self):
         self._sendkey('NRC_INFO-ONOFF')
-        
+
     def index(self):
         self._sendkey('NRC_INDEX-ONOFF')
-        
+
     def hold(self):
         self._sendkey('NRC_HOLD-ONOFF')
 
