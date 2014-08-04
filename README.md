@@ -25,6 +25,7 @@ Taken directly from the 'Compatible VIERA models section' from the description o
 ## How?
 In a nutshell:
 
+```python
     from pyviera import VieraFinder
     vf = VieraFinder()
     tv = vf.get_viera()
@@ -32,6 +33,7 @@ In a nutshell:
     tv.mute()
     tv.mute() # Toggles
     tv.vol_up()
+```
 
 ## Updates?
 Yes. Soon :). Currently only volume up/down, muting, and changing channel are supported.
